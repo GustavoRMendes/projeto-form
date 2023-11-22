@@ -31,9 +31,7 @@
     text-align: center;
     color: rgb(71, 10, 128);
     position: absolute;
-    top: 0px;
-    background-color: #eee;
-    width: 61.9vw;
+    top: 30px;
 }
 label{
     display: block;
