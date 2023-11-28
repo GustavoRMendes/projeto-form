@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="mobile.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <h1 id="titulo">Login</h1>
+            <div id="msg">
+
+            </div>
+            <form action="#" method="post" autocomplete="off">
+                <label for="nome"><i class="fa-solid fa-user" style="color: #0743ab;"></i></label> 
+
+                <input type="text" name="nome" id="nome" placeholder="Insira seu Nome" required minlength="2"> <br>
+
+                <label for="email">
+                    <i class="fa-solid fa-envelope" style="color: #0a48b2;"></i>
+                </label> 
+                <input type="email" placeholder="Insira seu Email" id="email" required> <br>
+                
+                <input type="submit" id="button" value="Enviar" onclick="clicar()">
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
